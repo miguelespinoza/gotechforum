@@ -1,0 +1,47 @@
+### Introduction
+Go 101
+Tech Forum
+29 Oct 2015
+
+Miguel Espinoza
+Josh Suggs
+
+* Go tools and $GOPATH
+- go tool
+	go run, go build, go install, go doc, go fmt
+- goimports
+	update import statements based on your workspace
+- $GOPATH
+	where all Go code resides
+* Semantics
+
+* Hello World, Again...
+.play code/hello.go /START OMIT/,/END OMIT/
+
+* Go gettable
+
+* How can we do that?
+- Create your own package!
+
+
+* Go Treats
+* Is Go an object-oriented language?
+.image img/yes_no.jpg
+
+* Composition over Inheritance
+
+* Interface
+
+* Error Handling
+
+* Concurrency
+
+* Things to be aware of
+
+* We're not alone
+
+* Resources
+- Why is Go, Go?
+	.link http://golang.org/doc/faq
+
+* Judge it for yourself, Get going with Go!
