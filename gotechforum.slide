@@ -13,6 +13,7 @@ Josh Suggs
 	update import statements based on your workspace
 - $GOPATH
 	where all Go code resides
+
 * Semantics
 
 * Hello World, Again...
@@ -23,25 +24,84 @@ Josh Suggs
 * How can we do that?
 - Create your own package!
 
-
 * Go Treats
 * Is Go an object-oriented language?
 .image img/yes_no.jpg
 
 * Composition over Inheritance
 
+* Struct Embedding
+.code code/phone.go /EMBD_START OMIT/,/EMBD_END OMIT/
+
+* Initialization
+.play code/phone.go /MAIN_START OMIT/,/MAIN_END OMIT/
+
 * Interface
+
+* Defining
+.code code/phone_interface.go /INT_START OMIT/,/INT_END OMIT/
+.code code/phone_interface.go /INT_IMP_START OMIT/,/INT_IMP_END OMIT/
+
+* Using the interface
+.code code/phone_interface.go /CHOOSE_START OMIT/,/CHOOSE_END OMIT/
+
+* Initialization
+.play code/phone_interface.go /MAIN_START OMIT/,/MAIN_END OMIT/
 
 * Error Handling
 
+* Simplicity
+.image img/exceptions.png
+.image img/errors.png
+
+* C# Error Handling
+.image img/try-catch.png
+
+* Go Error Handling
+- Reduces complexity of code flow
+.image img/go-error.png
+
 * Concurrency
+- Philosophy from Communicating Sequential Processes (CSP)
+- goroutines
+- channels
+- select
+
+* goroutines and channels
+.play code/pingpong.go /MAIN_START OMIT/,/MAIN_END OMIT/
+
+* channels
+.code code/pingpong.go /TURN_START OMIT/,/TURN_END OMIT/
+
+* select
+.code code/pingpong.go /KEEPER_START OMIT/,/KEEPER_END OMIT/
 
 * Things to be aware of
+- No generics
+- Go allows closures
+- gomobile toolchain: create SDK libraries for Android and iOS apps
+- zero values with implicit initialization
+- backwards compatible versions of Go
+- statements over expressions
+- naming convention is real!
+- simplicity, simplicity, simplicity!
 
 * We're not alone
+.image img/companies.png
 
 * Resources
 - Why is Go, Go?
-.link http://golang.org/doc/faq
+.link https://golang.org/doc/faq
+- Idiomatic Go
+.link https://golang.org/doc/code.html
+.link https://golang.org/doc/effective_go.html
+- Communities
+.link https://forum.golangbridge.org/
+.link http://reddit.com/r/golang
+- More resources
+.link http://internalwiki.acs.tech/display/RD/GO+Lang+Resources
+
+*   
+.image img/notimpressed.jpg
 
 * Judge it for yourself, Get going with Go!
