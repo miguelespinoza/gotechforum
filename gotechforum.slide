@@ -12,7 +12,6 @@ Josh Suggs
 - Robert Griesemer
 - Rob Pike
 - Ken Thompson
-- Hello World
 
 * Influenced by
 - C
@@ -125,9 +124,6 @@ Josh Suggs
 * We're not alone
 .image img/companies.png
 
-* Hello there?
-.image img/notimpressed.jpg
-
 * Resources
 - Why is Go, Go?
 .link https://golang.org/doc/faq
@@ -141,7 +137,7 @@ Josh Suggs
 - More resources
 .link http://internalwiki.acs.tech/display/RD/GO+Lang+Resources
 
-* Hello there?
+*   .
 .image img/notimpressed.jpg
 
 * Judge it for yourself, Get going with Go!
