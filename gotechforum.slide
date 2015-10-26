@@ -6,6 +6,39 @@ Tech Forum
 Miguel Espinoza
 Josh Suggs
 
+* History of Go
+
+* Language Designers
+- Robert Griesemer
+- Rob Pike
+- Ken Thompson
+
+* Influenced by
+- C
+- Pascal
+- Smalltalk
+- Oberon
+- Limbo
+- Newsqueak
+
+* Why Go?
+- Take advantage of the multicore computers
+- Reduce build time in the development process
+- Reduce complexity of features, introduce simplicity
+- Difficulty in updating features with other languages
+- Introduce a language with clear dependencies, syntax, and semantics
+
+* Go!
+- Easy tools necessary to compile, debug, profile, test, and run programs
+- Compiled to machine code
+- Strong and static type system
+- Package system that allow for better reusability
+- Concurrency as part of the language, not a framework
+- Garbage collector
+
+
+* Language Tools
+
 * Go tools and $GOPATH
 - go tool
 	go run, go build, go install, go doc, go fmt
@@ -44,6 +77,8 @@ Josh Suggs
 
 * Using the interface
 .code code/phone_interface.go /CHOOSE_START OMIT/,/CHOOSE_END OMIT/
+- Wait... Where is the
+	implement keyword!!!!
 
 * Initialization
 .play code/phone_interface.go /MAIN_START OMIT/,/MAIN_END OMIT/
@@ -92,6 +127,7 @@ Josh Suggs
 * Resources
 - Why is Go, Go?
 .link https://golang.org/doc/faq
+.link https://talks.golang.org/2012/splash.article
 - Idiomatic Go
 .link https://golang.org/doc/code.html
 .link https://golang.org/doc/effective_go.html
@@ -101,7 +137,7 @@ Josh Suggs
 - More resources
 .link http://internalwiki.acs.tech/display/RD/GO+Lang+Resources
 
-*   
+*
 .image img/notimpressed.jpg
 
 * Judge it for yourself, Get going with Go!
