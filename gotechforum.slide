@@ -77,11 +77,11 @@ Josh Suggs
 
 * Using the interface
 .code code/phone_interface.go /CHOOSE_START OMIT/,/CHOOSE_END OMIT/
-- Wait... Where is the
-	implement keyword!!!!
 
 * Initialization
 .play code/phone_interface.go /MAIN_START OMIT/,/MAIN_END OMIT/
+- Wait... Where is the
+	implement keyword!!!!
 
 * Error Handling
 
